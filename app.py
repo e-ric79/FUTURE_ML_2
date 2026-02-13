@@ -118,5 +118,5 @@ for cat in sorted(categories):
     st.sidebar.write(f'• {cat}')
 
 st.sidebar.markdown('---')
-st.sidebar.caption('Built by [Your Name]')
+st.sidebar.caption('Built by Eric')
 st.sidebar.caption('[GitHub](https://github.com/e-ric79)')
