@@ -4,7 +4,7 @@ An intelligent support ticket classification system that automatically categoriz
 
 ## 🌐 Live Demo
 
-**Try it now:** [Support Ticket Classifier App](your-streamlit-link-here)
+**Try it now:** [Support Ticket Classifier App]()
 
 ## 🎯 Problem Statement
 
@@ -96,34 +96,7 @@ support-ticket-classifier-app/
 └── README.md                       # This file
 ```
 
-## 🔧 Local Setup
 
-### Prerequisites
-- Python 3.8+
-- pip package manager
-
-### Installation
-
-1. **Clone the repository**
-```bash
-git clone https://github.com/e-ric79/support-ticket-classifier-app.git
-cd support-ticket-classifier-app
-```
-
-2. **Install dependencies**
-```bash
-pip install -r requirements.txt
-```
-
-3. **Run the app**
-```bash
-streamlit run app.py
-```
-
-4. **Open in browser**
-```
-Navigate to: http://localhost:8501
-```
 
 ## 📊 Training Data
 
@@ -194,64 +167,6 @@ Display Top 3 Categories with Probabilities
 3. **Hardware tickets often confused** with other technical categories
 4. **85% automation rate** achievable with current model
 
-## 🚀 Future Enhancements
 
-### Planned Features
-- [ ] **Priority Prediction:** Auto-assign High/Medium/Low priority
-- [ ] **Multi-language Support:** Classify tickets in multiple languages
-- [ ] **Sentiment Analysis:** Detect urgent/frustrated customers
-- [ ] **Auto-response Suggestions:** Recommend template responses
-- [ ] **Batch Processing:** Upload CSV of tickets for bulk classification
-- [ ] **API Endpoint:** REST API for integration with ticketing systems
-
-### Model Improvements
-- [ ] Deep Learning (BERT/RoBERTa) for better accuracy
-- [ ] Active Learning for continuous improvement
-- [ ] Confidence threshold tuning for ambiguous cases
-- [ ] Ensemble methods combining multiple models
-
-## 📈 Business Impact
-
-### Metrics
-- **Time Saved:** ~30 seconds per ticket × 1000 tickets/day = **8.3 hours saved daily**
-- **Accuracy:** 85.38% vs ~70% human accuracy (fatigue/inconsistency)
-- **Response Time:** Immediate routing vs 5-10 min manual review
-- **Cost Savings:** Estimated $50k+/year in operational efficiency
-
-### Use Cases
-- **Customer Support Teams:** Auto-route tickets to specialists
-- **IT Helpdesks:** Categorize technical requests
-- **HR Departments:** Classify employee inquiries
-- **E-commerce:** Product/shipping/billing inquiry routing
-
-## 🤝 Contributing
-
-Contributions welcome! Please:
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/improvement`)
-3. Commit changes (`git commit -m 'Add improvement'`)
-4. Push to branch (`git push origin feature/improvement`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is open source and available under the MIT License.
-
-## 👤 Author
-
-**Eric**
-- GitHub: [@e-ric79](https://github.com/e-ric79)
-- LinkedIn: [Your LinkedIn]
-- Portfolio: [Your Portfolio]
-
-## 🙏 Acknowledgments
-
-- Dataset: Support ticket data for NLP classification
-- Inspiration: Real-world support team challenges
-- Tools: scikit-learn, Streamlit, Python community
-
----
-
-**⭐ If you find this project helpful, please star the repository!**
 
 *Built as part of my machine learning portfolio - demonstrating NLP, classification, and deployment skills.*
