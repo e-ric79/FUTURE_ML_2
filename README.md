@@ -24,6 +24,25 @@ An AI-powered classifier that:
 - ✅ **Reduces manual work** by 85%+
 - ✅ **Improves response times** significantly
 
+  ## 📋 Project Scope
+
+### What This Project Delivers
+✅ **Ticket Category Classification** - 8 categories with 85.38% accuracy
+✅ **Text Preprocessing Pipeline** - Cleaning, stopword removal, TF-IDF
+✅ **Model Evaluation** - Precision, Recall, F1-Score, Confusion Matrix
+✅ **Web Deployment** - Live Streamlit application
+✅ **Class-wise Performance Analysis** - Detailed breakdown per category
+
+### Note on Priority Prediction
+⚠️ The dataset used in this project did not include priority labels (High/Medium/Low/Critical). 
+
+The project focuses on **ticket category classification**, which is the primary business value:
+- Automatically routing tickets to the correct department
+- 85.38% accuracy across 8 support categories
+- Real-time classification via web interface
+
+**Future Enhancement:** Priority prediction can be added when labeled priority data becomes available. The same NLP pipeline and classification approach would apply.
+
 ## 📊 Model Performance
 
 | Metric | Score |
